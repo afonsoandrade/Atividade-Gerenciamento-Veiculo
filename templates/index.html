@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for marca_veiculo in consulta_no_banco  %}
+     {{ marca_veiculo.tipo_veiculo }} - {{ marca_veiculo.marca_veiculo }} - {{ marca_veiculo.modelo }} - {{ marca_veiculo.placa }} - {{ marca_veiculo.cor }} - <br>
+{% endfor %}
+
+
+</body>
+</html>
